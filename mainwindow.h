@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <vector>
-#include <QString>
+#include <vector> //
+#include <QString> //
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +19,7 @@ struct Task {
     double stressIndex;
 };
 
+//
 struct Day {
     QString timeSlots[1440]; // 1440 นาทีต่อวัน
     Day() {
@@ -34,8 +35,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+//
 private slots:
-    // ปุ่มต่างๆ ใน UI
     void on_btnUpdateTime_clicked();   // อัปเดตเวลาปัจจุบัน
     void on_btnAddRoutine_clicked();   // เพิ่มกิจกรรมประจำ (Routine)
     void on_btnAddTask_clicked();      // เพิ่มงาน (To-Do)
