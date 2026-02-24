@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <vector> // ส่วนที่2
-#include <QString> //ส่วนที่1
+#include <QString> //ส่วนที่2
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
