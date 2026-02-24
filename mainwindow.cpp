@@ -5,7 +5,6 @@
 #include <QTableWidgetItem>
 #include <QCheckBox>
 
-// --- Helper Functions ---
 int MainWindow::toMinutes(int h, int m) {
     return (h * 60) + m;
 }
